@@ -1,0 +1,43 @@
+:root {
+    --color-1: #52006A;
+    --color-2: #CD113B; 
+    --color-3: #FF7600;
+    --color-4: #FFA900; 
+}
+
+.color-1 {
+    color: var(--color-1);
+}
+
+.color-2 {
+    color: var(--color-2);
+}
+
+.color-3 {
+    color: var(--color-3);
+}
+
+.color-4 {
+    color: var(--color-4);
+}
+
+.bg-color {
+    background-color: #E9ECEF;
+}
+
+.height-equal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-column-justify-between {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.muzik-aletleri {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
